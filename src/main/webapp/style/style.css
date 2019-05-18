@@ -1,0 +1,231 @@
+#wrapper {
+    width: 100%;
+}
+
+/*header*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    width: 90%;
+    margin: 20px 0 0 60px;  
+}
+
+.header img {
+    width: 150px;
+}
+.header marquee {
+    width: 600px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: #3333ff;
+    text-shadow: 2px 2px #ff66ff;
+    margin-left: 100px;
+}
+
+.header a {
+   background-color: gray;
+   padding: 10px;
+   border-radius: 5px;
+   color: white;
+}
+.header .register {
+    padding-left: 100px;
+    padding-right: 10px;
+}
+
+/*Nav*/
+nav {
+    background-color: #046056;   
+    color: white;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+.nav th {
+    padding: 25px;
+}
+.nav a {
+    border-right: 1px dotted white;
+    padding-right: 40px;
+}
+
+.nav table {
+    margin-left: 60px;
+}
+.nav a:hover {
+    color: yellow;
+    
+}
+.nav .banner {
+    height: 200px;
+}
+
+/*main*/
+
+/*asside*/
+main {
+    margin-top: 60px;
+    
+}
+
+.aside {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+.aside aside {
+    width: 30%;
+    float: left;
+    background-color: #FEBB02;
+    border-radius: 10px;
+   
+}
+aside form {
+    margin-left: 10%;
+    opacity: 0.8;
+}
+aside form th {
+    font-size: 30px;
+    float: left;
+    font-family:  BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+aside form tr td {
+   padding-top: 10px;   
+}
+aside input {
+    padding: 5px 0 5px 8px;
+}
+aside select{
+   width: 168px;
+   padding: 10px;
+}
+.submit {
+    margin-left: 210px;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*session*/
+section {
+    font-family:  BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    width: 60%;
+    float: right;
+    
+}
+section h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #FEBB02;
+    opacity: 0.6;
+    border-bottom: 1px solid yellow;
+}
+section span {
+    color: #FEBB02;
+    font-size: 20px;
+    font-style: italic;
+}
+section a {
+    color: black;
+    float: right;
+    font-style: italic;
+    font-size: 15px;
+}
+section a:hover {
+    color: green;
+}
+
+/*article*/
+article {
+    clear: both;
+    background-color: #F3F3F3;
+    margin-top: 20px;
+    height: 500px;
+}
+.article {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+article img {
+    width: 355px;
+    float: left;
+}
+.room {
+    float: left;
+    margin-right: 40px;
+    text-align: center;
+}
+.room p {
+    margin: 0;
+}
+.article h2 {
+    text-align: center;
+    font-family:  BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color: #FEBB02;
+   
+}
+
+
+/*-*/
+.dichvu {   
+    height: 550px;
+    clear: both;
+    background-color: #6C4E38;
+}
+.dichvu h2 {
+    text-align: center;
+    margin-bottom: 40px;
+        margin-right: 130px;
+}
+
+.service {
+    width: 90%;   
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family:  BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color: #FEBB02;
+    margin-left: 150px;
+}
+.owr img {
+   margin-right: 55px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.owr{
+    float: left;
+    margin-right: 40px;
+}
+.owr td {
+    padding-top: 20px;
+     text-align: center;
+        color: white;  
+}
+.align {
+    padding-right: 50px;
+}
+
+/*-*/
+footer {
+    background-color: #F3F3F3;
+}
+.footer {
+    width: 90%;
+    margin: 0 auto;
+    font-family:  'Open Sans', sans-serif;
+    
+}
+ul {
+    margin: 0;
+    padding-top: 20px;
+}
